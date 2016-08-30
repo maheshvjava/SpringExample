@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Simple Hello world!
- * Spring Maven Example Application.
+ * Spring Maven Example Application!.
  */
 public class App 
 {
@@ -15,6 +15,7 @@ public class App
     	 
         HelloWorld obj = (HelloWorld) context.getBean("helloBean");
         obj.printHello();
+		obj.printHello();
         
     }
 }
