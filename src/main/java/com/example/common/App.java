@@ -17,7 +17,7 @@ public class App
         obj.printHello();
 		obj.printHello();
 		obj.printHello();
-		obj.printHello();
+		
         
     }
 }
